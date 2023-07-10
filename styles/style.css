@@ -239,6 +239,7 @@ main {
   background-image: url(/Flower-Asset/Rectangle\ 9.png);
   margin: 128px 240px;
   background-repeat: no-repeat;
+  display: block;
 }
 .search-heading {
   width: 373px;
@@ -251,9 +252,10 @@ main {
   padding-top: 122px;
   margin-right: 534px;
   margin-left: 533px;
+  margin-bottom: 16px;
 }
 
-p .latest-text {
+.latest-text {
   width: 231px;
   height: 30px;
   color: rgba(39, 39, 39, 0.6);
@@ -264,5 +266,32 @@ p .latest-text {
   line-height: 30px;
   margin-left: 604px;
   margin-right: 605px;
-  padding-top: 25px;
+  margin-top: 65px;
 }
+
+.searchbar {
+  display: flex;
+}
+
+input {
+  width: 700px;
+  height: 64px;
+  margin-top: 48px;
+  margin-left: 287px;
+  display: block;
+  border: none;
+  border-radius: 8px;
+}
+
+.email-field {
+  padding: 23px 513px 22px 22px;
+}
+
+.subs-btn {
+  width: 150px;
+  height: 64px;
+  margin-top: 48px;
+  margin-left: 16px;
+  padding: 18.29px 31px;
+}
+
