@@ -66,7 +66,7 @@ header {
 
 main {
   width: 1920px;
-  height: 1539px;
+  height: 1350px;
   background-color: #fff;
 }
 
@@ -103,7 +103,6 @@ main {
   border-radius: 50% 50% 0% 0%;
   margin-top: 48px;
   margin-left: 240px;
-  display: float;
 }
 
 .shape2 {
@@ -134,19 +133,114 @@ main {
   /* margin-top: 110px;
   margin-right: 78px;
   margin-left: 76px; */
-  /* display: flex;
-  z-index: 99999; */
 }
 
 .pink-flo {
-  position: absolute;
+  margin-top: 110px;
+  margin-right: 78px;
+  margin-left: 76px;
+  width: 310px;
+  height: 428px;
+}
+
+.red-flo {
+  margin: 117px 47px 51px 47px;
+  width: 370px;
+  height: 370px;
+}
+
+.yellow-flo {
+margin: 67px 75px;
+width: 314px;
+height: 471px;
+}
+
+.flo-name {
+  margin-top: 610px;
+  text-decoration: underline;
+  display: flex;
+  color: #272727;
+text-align: center;
+font-family: Lato;
+font-size: 24px;
+font-weight: 700;
+line-height: 35px;
+}
+
+.flo-name1 {
+  margin-right: 307px;
+  margin-left: 381px;
+}
+
+.flo-name2 {
+  margin-right: 308px;
+}
+
+.container {
+width: 1440px;
+height: 320px;
+flex-shrink: 0;
+border-radius: 8px;
+background-color: rgba(39, 39, 39, 0.05);
+margin: 128px 240px;
+}
+
+
+.icon1 {
+  width: 88px;
+  height: 88px;
+  margin: 86px 356px 24px 317px;
+}
+
+.icon2 { 
+margin: 86px 271px 24px 0px;
+}
+
+.container-text {
+  display: flex;
+}
+
+.deli-text {
+  width: 372px;
+ height: 35px;
+color: rgba(39, 39, 39, 0.80);
+text-align: center;
+font-family: Lato;
+font-size: 24px;
+font-weight: 600;
+line-height: 35px;
+margin: 0px 100px 87px 175px;
+}
+
+.fresh-text {
+  width: 316px;
+  height: 35px;
+  color: rgba(39, 39, 39, 0.80);
+text-align: center;
+font-family: Lato;
+font-size: 24px;
+font-weight: 600;
+line-height: 35px;
+margin: 0px 100px 87px 0px;
+}
+
+.call-text {
+width: 202px;
+height: 35px;
+color: rgba(39, 39, 39, 0.80);
+text-align: center;
+font-family: Lato;
+font-size: 24px;
+font-weight: 600;
+line-height: 35px;
+margin: 0px 175px 87px 0px ;
 }
 
 /* Hot Deals */
 
 .deals {
-  max-width: 1922px;
-  max-height: 620px;
+  width: 1920px;
+  height: 620px;
   background-color: rgba(229, 84, 115, 0.05);
   display: flex;
   align-items: center;
