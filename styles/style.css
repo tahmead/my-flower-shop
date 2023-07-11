@@ -24,7 +24,7 @@ font-family: 'Sofia', cursive;
 /* Heading Section */
 
 header {
-  width: 1920px;
+  width: 100%;
   height: 850px;
   background: rgba(229, 84, 115, 0.1);
   display: flex;
@@ -67,7 +67,7 @@ header {
 /* Main Section */
 
 main {
-  width: 1920px;
+  width: 100%;
   height: 1350px;
   background-color: #fff;
 }
@@ -237,7 +237,7 @@ main {
 /* Hot Deals */
 
 .deals {
-  width: 1920px;
+  width: 100%;
   height: 620px;
   background-color: rgba(229, 84, 115, 0.05);
   display: flex;
@@ -281,7 +281,7 @@ main {
 /* Instagram and Search */
 
 .insta-search {
-  width: 1922px;
+  width: 100%;
   height: 1280px;
   background-color: #fff;
 }
@@ -384,7 +384,7 @@ main {
 /* Footer Section */
 
 footer {
-  width: 1922px;
+  width: 100%;
   height: 449px;
   background-color: #111010;
   display: flex;
